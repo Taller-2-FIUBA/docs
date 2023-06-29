@@ -16,5 +16,6 @@ Al editar un objetivo se le puede ir cargando el progreso
 
 ![Objetivos](../manual_images/goals_4.png)
 
-Finalmente al presionar sobre un objetivo, el mismo se extiende para mostrar toda la información del mismo.
+Finalmente al presionar sobre un objetivo, el mismo se extiende para mostrar toda la información del mismo
+
 ![Objetivos](../manual_images/goals_5.png)
