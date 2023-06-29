@@ -12,6 +12,7 @@ fueron diseñados:
 
 ### Users
 
+[Repositorio](https://github.com/Taller-2-FIUBA/users).  
 Responsable de todas las operaciones relacionadas con los usuarios y
 administradores: creación, log-in, edición y visualización.  
 También es el punto de acceso para el manejo de las billeteras de cada usuario, aunque no es responsable de efectivizar las mismas.  
@@ -21,18 +22,21 @@ Escrito en Python y utiliza FastAPI.
 
 ### Payment
 
-responsable de efectivizar las transacciones efectuadas entre billeteras de la
+[Repositorio](https://github.com/Taller-2-FIUBA/payment).  
+Responsable de efectivizar las transacciones efectuadas entre billeteras de la
 plataforma. Se utiliza la red de testeo Goerli. Escrito en Javascript.
 
 ### Goals
 
-se utiliza para las operaciones relacionadas con las metas del usuario:
+[Repositorio](https://github.com/Taller-2-FIUBA/goals).  
+Se utiliza para las operaciones relacionadas con las metas del usuario:
 creación, edición y visualización. También provee información sobre el progreso
 en las métricas en general. Utiliza PostgreSQL como base de datos. Escrito en Python utilizando FASTApi.
 
 ### Authentication
 
-encargado de regular la seguridad de la plataforma a través de
+[Repositorio](https://github.com/Taller-2-FIUBA/authentication).  
+Encargado de regular la seguridad de la plataforma a través de
 la creación y decodificación de los JWT (JSON Web Tokens) utilizados
 para el acceso a los distintos recursos. También provee acceso a Firebase, para
 el registro y log-in efectivo de cada usuario, y una carga
@@ -40,6 +44,7 @@ y descarga básica de imágenes a través de Firebase Storage. Escrito en Go y u
 
 ### Trainings
 
+[Repositorio](https://github.com/Taller-2-FIUBA/trainings).  
 Maneja los distintos entrenamientos: su creación, edición y visualización.
 También comprende las distintas interacciones
 posibles de los usuarios con estos: marcarlos como favoritos, asignarles un
@@ -48,6 +53,7 @@ FastAPI
 
 ### Metrics
 
+[Repositorio](https://github.com/Taller-2-FIUBA/metrics).
 Escrito en Python, tiene dos componentes.
 
 #### HTTP API
@@ -79,7 +85,8 @@ Las definiciones de cada uno de ellos se encuentra dentro de cada repositorio ba
 - `Ingress`: Usado para conectar un load balancer con los distintos pods agrupados por cada servicio.
 
 Dentro de la definición del `ingress` se encuentra la configuración del load balancer.
-Esta definición es centralizada y se encuentra dentro del repositorio `k8s`
+Esta definición es centralizada y se encuentra dentro del repositorio
+[k8s](https://github.com/Taller-2-FIUBA/k8s)
 
 ## Configuración
 
@@ -133,3 +140,9 @@ De la linea de tiempos y Logs/Traces/Métricas:
 - ¿Los Logs/Traces/Métricas muestran degradación de servicio o ataques?
 - ¿Cómo fue restaurado el servicio?
 - ¿Qué modificaciones son necesarias para que no vuelva a ocurrir?
+
+## Entorno local
+
+En el repositorio [overlays](https://github.com/Taller-2-FIUBA/overlays) se
+encuentra documentación sobre como crear un entorno local que incluye las
+dependencias.
