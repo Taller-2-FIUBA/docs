@@ -9,13 +9,13 @@ El sistema se encarga de poder administrar y visualizar la información más rel
 ## Login
 
 Es necesario contar con un usuario administrador para poder loggearse en el sistema. 
-Para acceder se debe ir a : [https://fiufit-backoffice-fiufitgrupo5-gmailcom.vercel.app/login](https://fiufit-backoffice-fiufitgrupo5-gmailcom.vercel.app/login) con email y password.
+Para acceder se debe ir a : [https://fiufit-backoffice.vercel.app/](https://fiufit-backoffice.vercel.app/) con email y password.
 
-![Untitled](./backoffice_imagenes/01_login.png)
+![01_login](./backoffice_imagenes/01_login.png)
 
 Una vez completados los datos se debe hacer click en “Iniciar sesión” y el sistema redirigirá a la siguiente pantalla en caso de éxito.
 
-![Untitled](./backoffice_imagenes/02_login.png)
+![02_login](./backoffice_imagenes/02_login.png)
 
 ## Barra de navegación
 
@@ -34,19 +34,19 @@ Al iniciar sesión en el sistema se accede a una barra horizontal que permite na
 
 Al ingresar a la pantalla se observará lo siguiente, donde se verán un listado de los usuarios del sistema con paginación para poder llegar a ver todos los usuarios.
 
-![Untitled](./backoffice_imagenes/01_listado_usuario.png)
+![01_listado_usuario](./backoffice_imagenes/01_listado_usuario.png)
 
 En la primera columna se puede ver el status que admite dos posibilidades: habilitado y bloqueado. En esta captura se ven todos los usuarios habilitados para operar en la plataforma.
 
 Los usuarios que estén bloqueados aparecerán con el status en rojo y se grisarán en la grilla.
 
-![Untitled](./backoffice_imagenes/02_listado_usuario.png)
+![02_listado_usuario](./backoffice_imagenes/02_listado_usuario.png)
 
 ### Detalle de usuario
 
 Para insertar a ver la información complementaria del usuario se selecciona el ícono del ojo en la columna “Actions” y aparecerá el siguiente modal.
 
-![Untitled](./backoffice_imagenes/01_detalle_usuario.png)
+![01_detalle_usuario](./backoffice_imagenes/01_detalle_usuario.png)
 
 ### Bloqueo
 
@@ -54,7 +54,7 @@ En este sistema se puede bloquear y desbloquear usuarios de la plataforma. Cuand
 
 Para bloquear un usuario se debe identificar en la grilla y clickear en la columna “Actions” en el ícono del centro de la imagen.
 
-![Untitled](./backoffice_imagenes/01_bloqueo_usuario.png)
+![01_bloqueo_usuario](./backoffice_imagenes/01_bloqueo_usuario.png)
 
 Como se mostró anteriormente, al realizar esta acción la fila pasará al estado rojo y se grisará dentro de la grilla para indicar que la operación fue realizada exitosamente.
 
@@ -62,7 +62,7 @@ Como se mostró anteriormente, al realizar esta acción la fila pasará al estad
 
 Para acceder a esta sección se debe clickear el símbolo de pesos en la grilla de usuarios y se observará la siguiente pantalla:
 
-![Untitled](./backoffice_imagenes/01_cargar_saldo.png)
+![01_cargar_saldo](./backoffice_imagenes/01_cargar_saldo.png)
 
 Al acceder a esta pantalla se puede ver la información del usuario al que vamos a agregarle saldo y su balance al momento.
 
@@ -74,11 +74,11 @@ Una vez que la operación sea realizada correctamente se actualizará el valor d
 
 En la pantalla de administradores se podrá ver el listado de todos los usuarios con el rol de administrador que se encuentran cargados en el sistema. Esta es la pantalla con la que se encontrará:
 
-![Untitled](./backoffice_imagenes/01_administradores.png)
+![01_administradores](./backoffice_imagenes/01_administradores.png)
 
 Para crear un nuevo administrador, es necesario clickear en el botón ‘+ Agregar admin’ y el sistema mostrará la siguiente pantalla:
 
-![Untitled](./backoffice_imagenes/02_administradores.png)
+![02_administradores](./backoffice_imagenes/02_administradores.png)
 
 Todos los campos son requeridos para crear un usuario. Ellos son:
 
@@ -90,7 +90,7 @@ En el caso de no cumplir con las validaciones de los campos, el sistema no permi
 
 ## Entrenamientos
 
-![Untitled](./backoffice_imagenes/01_entrenamientos.png)
+![01_entrenamientos](./backoffice_imagenes/01_entrenamientos.png)
 
 En esta grilla se pueden ver todos los entrenamientos de la plataforma, de la misma manera que con los usuarios se puede identificar los que están habilitados de los que están bloqueados a partir del color de la fila. 
 
@@ -104,17 +104,17 @@ Como una facilidad adicional se permite utilizar filtros para buscar más rápid
 
 En esta pantalla se pueden observar el listado de todas las APIs de la plataforma. De la misma manera que con usuarios y entrenamientos el campo status indica la sanidad del sistema.
 
-![Untitled](./backoffice_imagenes/01_servicios.png)
+![01_servicios](./backoffice_imagenes/01_servicios.png)
 
 Para ver más detalles de los endpoints se debe ingresar al detalle donde se puede observar información como uptime e incluso link a la documentación.
 
-![Untitled](./backoffice_imagenes/02_servicios.png)
+![02_servicios](./backoffice_imagenes/02_servicios.png)
 
 ## Transacciones
 
 La pantalla de transacciones es una pantalla que solo da visibilidad de la plata que se mueve dentro de la plataforma.
 
-![Untitled](./backoffice_imagenes/01_transacciones.png)
+![01_transacciones](./backoffice_imagenes/01_transacciones.png)
 
 En este listado se pueden ver las billeteras del que envía y recibe, la fecha de la transacción y el monto que se transfirió.
 
@@ -124,4 +124,4 @@ Esta es la pantalla que permite dar visibilidad sobre la cantidad de usuarios qu
 
 En estas métricas de usuario se pueden ver los usuarios bloqueados, la forma en que los usuarios se loggean al sistema, y la zona en la que residen. Esta información se nutre de datos en real time.  
 
-![Untitled](./backoffice_imagenes/01_metricas.png)
+![01_metricas](./backoffice_imagenes/01_metricas.png)
