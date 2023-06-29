@@ -7,3 +7,4 @@
 - Documentación de usuario
   - [Register](./user_manual/register.md)
   - [Goals](./user_manual/goals.md)
+  - [Payments](./user_manual/payments.md)
