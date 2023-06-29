@@ -1,5 +1,8 @@
 # Arquitectura
 
+![Alt text](https://raw.githubusercontent.com/Taller-2-FIUBA/docs/main/arquitecture/arquitecture.png?token=GHSAT0AAAAAACAQXO2HOYJK35ZBAVOAY4WEZE43K4Q)
+
+
 Para el proyecto se empleo una arquitectura de microservicios, diagramada a continuacion:
 
 Se procede a listar los microservicios y detalles relevantes de cada uno, incluyendo sus principales dependencias y el lenguaje
