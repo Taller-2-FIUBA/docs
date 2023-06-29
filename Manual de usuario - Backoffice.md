@@ -92,6 +92,14 @@ En el caso de no cumplir con las validaciones de los campos, el sistema no permi
 
 ![Untitled](./backoffice_imagenes/01_entrenamientos.png)
 
+En esta grilla se pueden ver todos los entrenamientos de la plataforma, de la misma manera que con los usuarios se puede identificar los que están habilitados de los que están bloqueados a partir del color de la fila. 
+
+Además se permite bloquear y desbloquear los entrenamientos.
+
+Para tener más información detallada, de la misma forma que con los usuarios, se puede acceder mediante el ícono del ojo para abrir una pantalla con el detalle.
+
+Como una facilidad adicional se permite utilizar filtros para buscar más rápidamente el entrenamiento deseado. Los filtros disponibles son: por tipo y dificultad.
+
 ## Servicios
 
 ## Transacciones
