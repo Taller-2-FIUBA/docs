@@ -102,6 +102,26 @@ Como una facilidad adicional se permite utilizar filtros para buscar más rápid
 
 ## Servicios
 
+En esta pantalla se pueden observar el listado de todas las APIs de la plataforma. De la misma manera que con usuarios y entrenamientos el campo status indica la sanidad del sistema.
+
+![Untitled](./backoffice_imagenes/01_servicios.png)
+
+Para ver más detalles de los endpoints se debe ingresar al detalle donde se puede observar información como uptime e incluso link a la documentación.
+
+![Untitled](./backoffice_imagenes/02_servicios.png)
+
 ## Transacciones
 
+La pantalla de transacciones es una pantalla que solo da visibilidad de la plata que se mueve dentro de la plataforma.
+
+![Untitled](./backoffice_imagenes/01_transacciones.png)
+
+En este listado se pueden ver las billeteras del que envía y recibe, la fecha de la transacción y el monto que se transfirió.
+
 ## Métricas
+
+Esta es la pantalla que permite dar visibilidad sobre la cantidad de usuarios que actualmente están usando la plataforma. 
+
+En estas métricas de usuario se pueden ver los usuarios bloqueados, la forma en que los usuarios se loggean al sistema, y la zona en la que residen. Esta información se nutre de datos en real time.  
+
+![Untitled](./backoffice_imagenes/01_metricas.png)
