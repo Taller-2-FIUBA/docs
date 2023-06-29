@@ -1,0 +1,16 @@
+Index: arquitecture/arquitectura.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Arquitectura\n\n![Alt text](https://raw.githubusercontent.com/Taller-2-FIUBA/docs/main/arquitecture/arquitecture.png?token=GHSAT0AAAAAACAQXO2HOYJK35ZBAVOAY4WEZE43K4Q)\n\n\nPara el proyecto se empleo una arquitectura de microservicios, diagramada a continuacion:\n\nSe procede a listar los microservicios y detalles relevantes de cada uno, incluyendo sus principales dependencias y el lenguaje\ny framework con el que fueron diseñados:\n\n- Users: responsable de todas las operaciones relacionadas con los usuarios y administradores: creacion, logeo, edicion y visualizacion.\nTambien es el punto de acceso para el manejo de las billeteras de cada usuario, aunque no es responsable de efectivizar las mismas.\nUtiliza PostgreSQL para almacenamiento de los datos de los usuarios, MongoDB para almacenamiento de sus respectivas posiciones y Redis para \nalmacenamiento de metricas. Escrito en Python y utiliza FastAPI.\n- Payment: responsable de efectivizar las transacciones efectuadas entre billeteras de la plataforma. Se utiliza la red de testeo Goerli.\nEscrito en Javascript.\n- Goals: se utiliza para las operaciones relacionadas con las metas del usuario: creacion, edicion y visualizacion. Tambien provee\ninformacion sobre el progreso en las metricas en general. Utiliza PostgreSQL como base de datos. Escrito en Python utilizando FASTApi.\n- Authentication: encargado de regular la seguridad de la plataforma a traves de la creacion y decodificacion de los JWT (JSON Web Tokens) utilizados\npara el acceso a los distintos recursos. Tambien provee acceso a Firebase, para el registro y logeo efectivo de cada usuario, y una carga\ny descarga basica de imagenes a traves de Firebase Storage. Escrito en Go y utiliza Gin.\n- Trainings: Maneja los distintos entrenamientos: su creacion, edicion y visualizacion. Tambien comprende las distintas interacciones\nposibles de los usuarios con estos: marcarlos como favoritos, asignarles un puntaje, etc. Utiliza PostgreSQL como base de datos. Escrito en Python y utiliza FastAPI\n- Metrics: 
+===================================================================
+diff --git a/arquitecture/arquitectura.md b/arquitecture/arquitectura.md
+--- a/arquitecture/arquitectura.md	
++++ b/arquitecture/arquitectura.md	
+@@ -1,6 +1,6 @@
+ # Arquitectura
+ 
+-![Alt text](https://raw.githubusercontent.com/Taller-2-FIUBA/docs/main/arquitecture/arquitecture.png?token=GHSAT0AAAAAACAQXO2HOYJK35ZBAVOAY4WEZE43K4Q)
++![alt text](https://raw.githubusercontent.com/Taller-2-FIUBA/docs/main/arquitecture/arquitecture.png?token=GHSAT0AAAAAACAQXO2HOYJK35ZBAVOAY4WEZE43K4Q)
+ 
+ 
+ Para el proyecto se empleo una arquitectura de microservicios, diagramada a continuacion:
