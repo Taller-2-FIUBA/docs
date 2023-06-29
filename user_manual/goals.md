@@ -8,7 +8,7 @@ Al presionar en el botón flotante se abrirá un formulario para crear un objeti
 
 ![Objetivos](../manual_images/goals_2.png)
 
-Luego se verán listados los obetivos en la pantalla original. Al mantener presionado unos segundos un objetivo el mismo queda marcado y desbloquea dos opciones, la primera para editar y la segunda para eliminar como se ve a continuación:
+Luego se verán listados los objetivos en la pantalla original. Al mantener presionado unos segundos un objetivo el mismo queda marcado y desbloquea dos opciones, la primera para editar y la segunda para eliminar como se ve a continuación:
 
 ![Objetivos](../manual_images/goals_3.png)
 
