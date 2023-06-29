@@ -4,7 +4,7 @@ Un usuario recien creado no tendra entrenamientos nuevos, como se puede observar
 
 ![arquitectura](../manual_images/trainings_1.jpg)
 
-Clicar la lupa para acceder a la busqueda de entrenamientos y agregar uno. Observese que es posible filtrar por 
+Clicar la lupa para acceder a la búsqueda de entrenamientos y agregar uno. Observese que es posible filtrar por 
 - Nombre
 - Tipo
 - Dificultad
@@ -14,16 +14,16 @@ Los resultados apareceran abajo del boton Search
 
 Al clicar el entrenamiento se puede ver detalles sobre el mismo:
 - Nombre
-- Descripcion
+- Descripción
 - Tipo
 - Dificultad
 - Foto en caso de que la tenga 
 
-Se lo puede agregar a favoritos clicando el corazon.
+Se lo puede agregar a favoritos clicando el corazón.
 
 ![arquitectura](../manual_images/trainings_3.jpg)
 
-Al volver a la pestania de trainings, se observara que el training aparece en la lista:
+Al volver a la pestaña de trainings, se observara que el training aparece en la lista:
 
 ![arquitectura](../manual_images/trainings_4.jpg)
 
