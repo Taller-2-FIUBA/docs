@@ -146,3 +146,16 @@ De la linea de tiempos y Logs/Traces/Métricas:
 En el repositorio [overlays](https://github.com/Taller-2-FIUBA/overlays) se
 encuentra documentación sobre como crear un entorno local que incluye las
 dependencias.
+
+## OpenAPI
+
+Todos los microservicios exponen su documentación de OpenAPI con swagger:
+
+- https://fiufit-ingress-taller2-marianocinalli.cloud.okteto.net/users/documentation/
+  - [OpenAPI.yaml](./users-openapi.json)
+- https://fiufit-ingress-taller2-marianocinalli.cloud.okteto.net/trainings/documentation/
+  - [OpenAPI.yaml](./trainings-openapi.json)
+- https://fiufit-ingress-taller2-marianocinalli.cloud.okteto.net/goals/documentation/
+  - [OpenAPI.yaml](./goals-openapi.json)
+- https://fiufit-ingress-taller2-marianocinalli.cloud.okteto.net/metrics/documentation/
+  - [OpenAPI.yaml](./metrics-openapi.json)
