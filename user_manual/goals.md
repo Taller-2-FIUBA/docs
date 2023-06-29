@@ -1,4 +1,4 @@
-# Manual de usuario - Objetivos
+# Manual de usuario - Objetivos y progreso
 
 La primera vez que se ingrese a la pantalla de objetivos se verá de la siguiente manera:
 
@@ -19,3 +19,7 @@ Al editar un objetivo se le puede ir cargando el progreso
 Finalmente al presionar sobre un objetivo, el mismo se extiende para mostrar toda la información del mismo
 
 ![Objetivos](../manual_images/goals_5.png)
+
+En la pantalla de progreso se puede trackear los avances de los objetivos:
+
+![Progreso](../manual_images/progress_1.png)
