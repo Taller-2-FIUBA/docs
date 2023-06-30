@@ -14,7 +14,6 @@ Aquí se debe colocar la siguiente información:
 
 Si hay algún error en la información introducida, se le informará en rojo arriba del campo relevante. Una vez que todos los campos han sido completados satisfactoriamente, apretar Next.
 
-
 ![arquitectura](../manual_images/register_2.jpg)
 
 A continuación se le requerirán los datos personales:
@@ -41,3 +40,5 @@ En ambas pantallas, si hay algún error en la información introducida, se le in
 Para terminar el proceso, clicar Register. El usuario se creará y notificará el éxito de la operación, volviendo a la pantalla de login. Finalmente, se puede logear colocando la información correspondiente en email y password.
 
 ![arquitectura](../manual_images/register_5.jpg)
+
+IMPORTANTE: la app permitira relogeo automatico hasta un dia despues del ultimo logeo manual. 

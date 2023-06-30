@@ -6,7 +6,9 @@ siguiente pantalla:
 ![arquitectura](../manual_images/edit_1.jpg)
 
 Si se clica Profile y luego Edit profile, se puede acceder a la edición del perfil de usuario.  
-No es posible modificar todos los detalles de usuario, el email y la foto no son modificables.
+No es posible modificar todos los detalles de usuario, el email y la foto no son modificables.  
+Aqui tambien es posible acceder a los seguidores y usuarios seguidos (ver la seccion Seguimiento de usuarios para
+mas detalles)
 
 ![arquitectura](../manual_images/edit_2.jpg)
 

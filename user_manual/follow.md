@@ -1,7 +1,7 @@
 # Manual de usuario - Seguimiento de usuarios
 
 Es posible seguir a entrenadores para conocer sus entrenamientos. Para lograrlo, clicar la lupa presente en la esquina superior
-derecha de la siguiente imagen:
+derecha del dashboard principal:
 
 ![arquitectura](../manual_images/trainings_1.jpg)
 

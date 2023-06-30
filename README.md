@@ -11,3 +11,5 @@
   - [Payments](./user_manual/payments.md)
   - [Trainings](./user_manual/trainings.md)
   - [Goals](./user_manual/goals.md)
+  - [Chats](./user_manual/chat.md)
+  - [Notifications](./user_manual/notifications.md)
